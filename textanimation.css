@@ -1,0 +1,49 @@
+/* scrollReveal.css */
+
+/* Base Styles for Scroll Reveal Elements */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease-out 0.2s;
+}
+
+.scroll-reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Scroll Reveal Up to Down (Optional) */
+.scroll-reveal-up-down {
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: all 1s ease-out 0.2s;
+}
+
+.scroll-reveal-visible-up-down {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Right to Left Reveal */
+.scroll-reveal-right-left {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 1s ease-out 0.2s;
+}
+
+.scroll-reveal-right-left-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Left to Right Reveal */
+.scroll-reveal-left-right {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 1s ease-out 0.2s;
+}
+
+.scroll-reveal-left-right-visible {
+  opacity: 1;
+  transform: translateX(0);
+}

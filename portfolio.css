@@ -1,0 +1,826 @@
+body {
+    background-color: #141414;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    cursor: default;
+    user-select: none;
+}
+
+#background-video {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 75%;
+  }
+
+#section-1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+#sec1h1 {
+    color: #b7ab98;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: 4px;
+    text-align: center;
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%);
+    transition: ease-in-out 0.3s;
+    z-index: 2;
+}
+
+#sec1h1:hover {
+    color: #fd6b31;
+    transition: ease-in-out 0.3s;
+}
+
+#sec1h2 {
+    
+    color: #b7ab98;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 180px;
+    letter-spacing: -4px;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    transition: ease-in-out 0.3s;
+    z-index: 2;
+}
+
+#sec1h2:hover {
+    color: #fd6b31;
+    transition: ease-in-out 0.3s;
+}
+
+#sec1h3 {
+    color: #fd6b31;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 180px;
+    letter-spacing: -4px;
+    text-align: center;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%);
+    transition: ease-in-out 0.3s;
+    z-index: 2;
+}
+
+#sec1h3:hover {
+    color: #b7ab98;
+    transition: ease-in-out 0.3s;
+}
+
+#sec1h4 {
+    color: #b7ab98;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 180px;
+    letter-spacing: -4px;
+    text-align: center;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%);
+    transition: ease-in-out 0.3s;
+    z-index: 2;
+}
+
+#sec1h4:hover {
+    color: #fd6b31;
+    transition: ease-in-out 0.3s;
+}
+
+#sec1h5 {
+    color: #b7ab98;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 180px;
+    letter-spacing: -4px;
+    text-align: center;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%);
+    transition: ease-in-out 0.3s;
+    z-index: 2;
+    
+}
+
+#sec1h5:hover {
+    color: #fd6b31;
+    transition: ease-in-out 0.3s;
+}
+
+.fa-github {
+    font-size: 40px;
+    position: absolute;
+    left: 40px;
+    top: 84%;
+    cursor: pointer;
+    color: #b7ab98;
+    transition: ease-in-out 0.3s;
+    z-index: 2;
+}
+
+.fa-github:hover {
+    color: #fd6b31;
+    transition: ease-in-out 0.3s;
+    transform: translateY(-10px);
+}
+
+.fa-linkedin {
+    font-size: 40px;
+    position: absolute;
+    left: 40px;
+    top: 90%;
+    cursor: pointer;
+    color: #b7ab98;
+    transition: ease-in-out 0.3s;
+    z-index: 2;
+}
+
+.fa-linkedin:hover {
+    color: #fd6b31;
+    transition: ease-in-out 0.3s;
+    transform: translateY(-10px);
+}
+
+#section-2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    background-color: #141414;
+}
+
+#sec2h1 {
+    color: #b7ab98;
+    position: absolute;
+    top: 40px;
+    left: 15%;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 5px;
+}
+
+#sec2p1 {
+    color: #b7ab98;
+    position: absolute;
+    top: 40px;
+    left: 15%;
+    font-size: 105px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -6px;
+    width: 70%;
+    line-height: 1.15;
+}
+
+#sec2-span1 {
+    color: #fd6b31;
+    position: relative;
+    transition: color 0.5s;
+}
+
+#sec2-span1::after {
+    content: "passionate learner";
+    position: absolute; /* Position it absolutely within the span */
+    left: 0;
+    top: 13px;
+    color: #fd6b31;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+#sec2-span1:hover {
+    color: transparent; /* Hide the original text */
+}
+
+#sec2-span1:hover::after {
+    opacity: 1; /* Show the new text on hover */
+    visibility: visible;
+    pointer-events: none; /* Prevent interaction with the pseudo-element */
+}
+
+#port-pic-container {
+    height: 35%;
+    width: 17.5%;
+    position: absolute;
+    top: 60%;
+    right: 15%;
+    transition: all 0.3s linear;
+}
+
+#port-pic {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    opacity: 80%;
+    filter: grayscale(100%);
+    transition: all 0.3s linear;
+}
+
+#port-pic:hover {
+    opacity: 1;
+    transform: translate(10%, 10%);
+    filter: grayscale(0%);
+}
+
+#port-pic-back {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        background-color: #fd6b31;
+        z-index: -1;
+        transition: all 0.3s linear;
+}
+
+#port-pic:hover #port-pic-back {
+    transform: translate(-20%, -20%);
+}
+
+#port-pic:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter: grayscale(100%) !important;
+    transition: all 0.3s linear;
+}
+  
+#port-pic:hover:before {
+    background-color: transparent; /* remove tint on hover */
+}
+
+#left-pic {
+    width: 110%;
+    position: absolute;
+    top: 48%;
+    left: -55%;
+    transform: rotate(90deg);
+}
+
+#right-pic {
+    width: 110%;
+    position: absolute;
+    top: 48%;
+    right: -55%;
+    transform: rotate(90deg);
+}
+
+#top-pic {
+    width: 110%;
+    position: absolute;
+    top: -2%;
+    right: -5%;
+}
+
+#bottom-pic {
+    width: 110%;
+    position: absolute;
+    top: 98%;
+    right: -5%;
+}
+
+#port-pic-container:hover hr {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#port-pic-container hr {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/*
+#port-pic-container {
+    height: 40%;
+    width: 20%;
+    position: absolute;
+    top: 55%;
+    right: 15%;
+    background-color: aquamarine;
+}
+*/
+#section-3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    top: 200%;
+    background-color: #141414;
+}
+
+#sec3-h1 {
+    color: #b7ab98;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 5px;
+}
+
+#sec3-h1::after {
+    content: "YEA I DON'T HAVE ANY";
+    display: block;
+    position: absolute;
+    color: #fd6b31;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s, visibility 0.4s;
+}
+
+#sec3-h1:hover {
+    color: #b7ab98; /* Hide the original text */
+}
+
+#sec3-h1:hover::after {
+    opacity: 1; /* Show the new text on hover */
+    visibility: visible;
+    pointer-events: none; /* Prevent interaction with the pseudo-element */
+}
+
+.skill-blocks-container-1 {
+    width: 100%;
+    text-align: center; /* Center the skill blocks container */
+    margin-top: 20px;
+    position: absolute;
+    top: 300px;
+    }
+
+.skill-blocks-container-2 {
+    width: 100%;
+    text-align: center; /* Center the skill blocks container */
+    margin-top: 20px;
+    position: absolute;
+    top: 620px;
+    }
+
+.skill-blocks {
+    display: inline-block;
+    background-color: transparent;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    perspective: 1000px;
+    position: relative;
+    margin: 0 10px; /* Adds space between skill blocks */
+}
+
+.skill-block-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.skill-blocks:hover .skill-block-inner {
+    transform: rotateY(180deg);
+}
+
+.skill-block-front, .skill-block-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.skill-block-front {
+    background-color: transparent;
+    color: #b7ab98;
+    border: #b7ab98 1px solid;
+}
+
+.skill-block-back {
+    background-color: #b7ab98;
+    color: #fff;
+    transform: rotateY(180deg);
+}
+
+.skill-block-back h1, .skill-block-back p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.skill-block-back h1 {
+    top: 40px;
+}
+
+.skill-block-back p {
+    bottom: 60px;
+}
+
+/* Progress bar container */
+.progress-bar {
+    width: 80%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 200px;
+    left: 10%;
+}
+
+/* Animated progress fill */
+.progress {
+    height: 100%;
+    background-color: #ffffff; /* Customize this color */
+    width: 0%; /* Initial width for animation */
+    transition: width 3s ease-in-out;
+    border-radius: 10px;
+}
+
+
+
+.skill-blocks-container-1, .skill-blocks-container-2 {
+    display: block;
+}
+
+.skill-blocks-container-2-1, .skill-blocks-container-2-2 {
+    display: none;
+}
+
+#sec3-switching-button {
+    color: #b7ab98;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 17px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: #b7ab98 solid 1px;
+    border-radius: 8px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.4s linear;
+
+}
+
+#sec3-switching-button:hover {
+    background-color: #b7ab98;
+    color: #fff;
+    border-color: transparent;
+}
+
+.skill-blocks-container-2-1 {
+    width: 100%;
+    text-align: center; /* Center the skill blocks container */
+    margin-top: 20px;
+    position: absolute;
+    top: 300px;
+    transition: all 0.4s linear;
+    }
+
+.skill-blocks-container-2-2 {
+    width: 100%;
+    text-align: center; /* Center the skill blocks container */
+    margin-top: 20px;
+    position: absolute;
+    top: 620px;
+    transition: all 0.4s linear;
+    }
+
+    
+
+.skill-blocks {
+    display: inline-block;
+    background-color: transparent;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    perspective: 1000px;
+    position: relative;
+    margin: 0 10px; /* Adds space between skill blocks */
+}
+
+.skill-block-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.skill-blocks:hover .skill-block-inner {
+    transform: rotateY(180deg);
+}
+
+.skill-block-front, .skill-block-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.skill-block-front {
+    background-color: transparent;
+    color: #b7ab98;
+    border: #b7ab98 1px solid;
+}
+
+.skill-block-back {
+    background-color: #b7ab98;
+    color: #fff;
+    transform: rotateY(180deg);
+}
+
+.skill-block-back h1, .skill-block-back p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.skill-block-back h1 {
+    top: 40px;
+}
+
+.skill-block-back p {
+    bottom: 60px;
+}
+
+/* Progress bar container */
+.progress-bar {
+    width: 80%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 200px;
+    left: 10%;
+}
+
+/* Animated progress fill */
+.progress {
+    height: 100%;
+    background-color: #ffffff; /* Customize this color */
+    width: 0%; /* Initial width for animation */
+    transition: width 3s ease-in-out;
+    border-radius: 10px;
+}
+
+
+
+#section-4 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    top: 300%;
+    background-color: #1b1b1b;
+}
+
+#sec4-h1 {
+    color: #b7ab98;
+    position: absolute;
+    top: 410px;
+    left: 15%;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 5px;
+    z-index: 2;
+}
+
+#sec4-p1 {
+    color: #b7ab98;
+    position: absolute;
+    top: 430px;
+    left: 15%;
+    font-size: 98px;
+    font-weight: 600;
+    width: 70%;
+    font-style: normal;
+    letter-spacing: -6px;
+    line-height: 1.15;
+    z-index: 2;
+}
+
+#sec4-span1 {
+    color: #fd6b31;
+    position: relative;
+    transition: color 0.5s;
+}
+
+#sec4-span1::after {
+    content: "four";
+    display: content;
+    position: absolute; /* Position it absolutely within the span */
+    left: 0;
+    top: 13px;
+    color: #fd6b31;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+#sec4-span1:hover {
+    color: transparent; /* Hide the original text */
+}
+
+#sec4-span1:hover::after {
+    opacity: 1; /* Show the new text on hover */
+    visibility: visible;
+    pointer-events: none; /* Prevent interaction with the pseudo-element */
+}
+
+#sec4-span2 {
+    color: #fd6b31;
+    position: relative;
+    transition: color 0.5s;
+}
+
+#sec4-span2::after {
+    content: "trial and error";
+    display: content;
+    position: absolute; /* Position it absolutely within the span */
+    left: 0;
+    top: 13px;
+    color: #fd6b31;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+#sec4-span2:hover {
+    color: transparent; /* Hide the original text */
+}
+
+#sec4-span2:hover::after {
+    opacity: 1; /* Show the new text on hover */
+    visibility: visible;
+    pointer-events: none; /* Prevent interaction with the pseudo-element */
+}
+
+#section-5 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    top: 400%;
+    background-color: #141414;
+}
+
+#section-6 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    top: 500%;
+    background-color: #141414;
+}
+
+#sec6-h1 {
+    color: #b7ab98;
+    position: absolute;
+    top: 40px;
+    left: 15%;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 5px;
+}
+
+#sec6-h2 {
+    color: #b7ab98;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 5px;
+    z-index: 6;
+    transition: all 0.4s linear;
+}
+
+#sec6-button1 {
+    color: #b7ab98;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: #b7ab98 solid 1px;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 5px;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+
+#sec6-button1:hover {
+    background-color: #b7ab98;
+    color: #fff;
+    border-color: transparent;
+}
+
+.sec6-container {
+    background-color: transparent;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 40%;
+    border-radius: 8px;
+}
+
+.sec6-container:hover #sec6-h2 {
+    color: transparent;
+}
+
+#sec6-con-cover {
+    background-color: #141414;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    border: #b7ab98 1px solid;
+    z-index: 2;
+    transition: all 0.4s linear;
+}
+
+#sec6-con-cover:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#sec6-p1 {
+    color: #b7ab98;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 128%;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
