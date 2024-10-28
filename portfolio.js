@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
             skillContainer2.style.display = "none";
             skillContainer21.style.display = "block";
             skillContainer22.style.display = "block";
-            toggleButton.textContent = "Back to Programming?"; // Change button text
+            toggleButton.textContent = "Back to Programming"; // Change button text
         } else {
             skillContainer1.style.display = "block";
             skillContainer2.style.display = "block";
