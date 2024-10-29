@@ -1,0 +1,445 @@
+@media screen and (min-width: 2560px) and (orientation: landscape) {
+
+    body {
+        background-color: #141414;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+        cursor: default;
+        user-select: none;
+    }
+
+    #background-video {
+        top: 0%;
+        width: 100%;
+        height: 100%;
+    }
+
+    #section-1 {
+        width: 100%;
+        height: 1440px;
+        top: 0%;
+        left: 0%;
+    }
+
+
+
+    .fa-github {
+        font-size: 1.6vw;
+        left: 40px;
+        top: 84%;
+        z-index: 2;
+    }
+
+    .fa-github:hover {
+        transform: translateY(-10px);
+    }
+
+    .fa-linkedin {
+        font-size: 1.6vw;
+        left: 40px;
+        top: 90%;
+        z-index: 2;
+    }
+
+    .fa-linkedin:hover {
+        transform: translateY(-10px);
+    }
+
+    #section-2 {
+        width: 100%;
+        height: 1440px;
+        left: 0%;
+        top: 100%;
+    }
+
+    #sec-2-row {
+        position: absolute;
+        top: 12.5%;
+        height: 75%;
+        width: 80%;
+    }    
+
+    #sec2h1 {
+        top: 80px;
+        left: 15%;
+        font-size: 0.8vw;
+        font-weight: 600;
+        letter-spacing: 5px;
+    }
+
+    #sec2p1 {
+        top: 80px;
+        left: 15%;
+        font-size: 3.8vw;
+        font-weight: 600;
+        letter-spacing: -6px;
+        line-height: 1.15;
+    }
+
+    #sec2-span1::after {
+        left: 0;
+        top: 13px;
+    }
+
+    #port-pic-container {
+        height: 400px;
+        width: 400px;
+        top: 870px;
+        left: 50%;
+        transform: translate(130%);
+    }
+
+    #port-pic {
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+
+    #port-pic:hover {
+        transform: translate(10%, 10%);
+    }
+
+    #port-pic-back {
+            height: 100%;
+            width: 100%;
+            top: 0%;
+            right: 0%;
+            z-index: -1;
+    }
+
+    #port-pic:hover #port-pic-back {
+        transform: translate(-20%, -20%);
+    }
+
+    #port-pic:before {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    #left-pic {
+        width: 110%;
+        top: 48%;
+        left: -55%;
+        transform: rotate(90deg);
+    }
+
+    #right-pic {
+        width: 110%;
+        top: 48%;
+        right: -55%;
+        transform: rotate(90deg);
+    }
+
+    #top-pic {
+        width: 110%;
+        top: -2%;
+        right: -5%;
+    }
+
+    #bottom-pic {
+        width: 110%;
+        top: 98%;
+        right: -5%;
+    }
+
+    #section-3 {
+        width: 100%;
+        height: 1440px;
+        left: 0%;
+        top: 200%;
+    }
+
+    #sec3-h1 {
+        top: 120px;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 0.8vw;
+        font-weight: 600;
+        letter-spacing: 5px;
+    }
+
+    .skill-blocks-container-1 {
+        width: 100%;
+        margin-top: 20px;
+        top: 300px;
+        }
+
+    .skill-blocks-container-2 {
+        width: 100%;
+        margin-top: 20px;
+        top: 620px;
+        }
+
+    .skill-blocks {
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+        perspective: 1000px;
+        margin: 0 10px; /* Adds space between skill blocks */
+    }
+
+    .skill-block-inner {
+        width: 100%;
+        height: 100%;
+    }
+
+    .skill-blocks:hover .skill-block-inner {
+        transform: rotateY(180deg);
+    }
+
+    .skill-block-front, .skill-block-back {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .skill-block-front {
+        border: #b7ab98 1px solid;
+    }
+
+    .skill-block-back h1, .skill-block-back p {
+        width: 100%;
+        margin: 0;
+    }
+
+    .skill-block-back h1 {
+        top: 40px;
+    }
+
+    .skill-block-back p {
+        bottom: 60px;
+    }
+
+    /* Progress bar container */
+    .progress-bar {
+        width: 80%;
+        height: 20px;
+        border-radius: 10px;
+        top: 200px;
+        left: 10%;
+    }
+
+    /* Animated progress fill */
+    .progress {
+        width: 0%; /* Initial width for animation */
+        border-radius: 10px;
+    }
+
+    #sec3-switching-button {
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 0.7vw;
+        border: #b7ab98 solid 1px;
+        border-radius: 8px;
+        padding: 5px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-weight: 600;
+        letter-spacing: 2px;
+
+    }
+
+    .skill-blocks-container-2-1 {
+        width: 100%;
+        margin-top: 20px;
+        top: 300px;
+        }
+
+    .skill-blocks-container-2-2 {
+        width: 100%;
+        margin-top: 20px;
+        top: 620px;
+        }
+
+        
+
+    .skill-blocks {
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+        perspective: 1000px;
+        margin: 0 10px; /* Adds space between skill blocks */
+    }
+
+    .skill-block-inner {
+        width: 100%;
+        height: 100%;
+    }
+
+    .skill-block-front, .skill-block-back {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .skill-block-front {
+        border: #b7ab98 1px solid;
+    }
+
+    .skill-block-back h1, .skill-block-back p {
+        width: 100%;
+        margin: 0;
+    }
+
+    .skill-block-back h1 {
+        top: 40px;
+    }
+
+    .skill-block-back p {
+        bottom: 60px;
+    }
+
+    /* Progress bar container */
+    .progress-bar {
+        width: 80%;
+        height: 20px;
+        border-radius: 10px;
+        top: 200px;
+        left: 10%;
+    }
+
+    /* Animated progress fill */
+    .progress {
+        border-radius: 10px;
+    }
+
+    #section-4 {
+        width: 100%;
+        height: 1440px;
+        left: 0%;
+        top: 300%;
+    }
+
+    #sec4-h1 {
+        top: 50px;
+        left: 15%;
+        font-size: 0.8vw;
+        font-weight: 600;
+        font-style: normal;
+        letter-spacing: 5px;
+    }
+
+    #sec4-p1 {
+        top: 50px;
+        left: 15%;
+        font-size: 3.8vw;
+        font-weight: 600;
+        width: 70%;
+        letter-spacing: -6px;
+        line-height: 1.15;
+    }
+
+    #sec4-span1::after {
+        left: 0;
+        top: 13px;
+    }
+
+    #sec4-span2::after {
+        left: 0;
+        top: 13px;
+    }
+
+    #section-5 {
+        width: 100%;
+        height: 1440px;
+        left: 0%;
+        top: 400%;
+        background-color: #141414;
+    }
+
+    #section-6 {
+        width: 100%;
+        height: 1440px;
+        left: 0%;
+        top: 500%;
+        background-color: #141414;
+    }
+
+    #sec6-h1 {
+        color: #b7ab98;
+        position: absolute;
+        top: 40px;
+        left: 15%;
+        font-size: 0.8vw;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-style: normal;
+        letter-spacing: 5px;
+    }
+
+    #sec6-h2 {
+        color: #b7ab98;
+        position: absolute;
+        top: 180px;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 3.4vw;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-style: normal;
+        letter-spacing: 5px;
+        z-index: 6;
+        transition: all 0.4s linear;
+    }
+
+    #sec6-button1 {
+        color: #b7ab98;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 0.7vw;
+        text-transform: uppercase;
+        background-color: transparent;
+        border: #b7ab98 solid 1px;
+        border-radius: 8px;
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-weight: 600;
+        font-style: normal;
+        letter-spacing: 5px;
+        cursor: pointer;
+        transition: all 0.4s linear;
+    }
+
+    .sec6-container {
+        background-color: transparent;
+        height: 50%;
+        width: 50%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 40%;
+        border-radius: 8px;
+    }
+
+
+    #sec6-con-cover {
+        height: 100%;
+        width: 100%;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 50%;
+        border-radius: 8px;
+        border: #b7ab98 1px solid;
+    }
+
+    #sec6-p1 {
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 0.7vw;
+        letter-spacing: 1px;
+    }
+
+}
