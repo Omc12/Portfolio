@@ -1,5 +1,5 @@
-@media screen and (min-width: 2560px) and (orientation: landscape) {
-
+@media screen and (min-width: 1600px) and (orientation: landscape) {
+    
     body {
         background-color: #141414;
         font-family: "Poppins", sans-serif;
@@ -18,8 +18,8 @@
     #section-1 {
         width: 100%;
         height: 100%;
-        min-height: 1440px;
-        max-height: 1600px;
+        min-height: 900px;
+        max-height: 1000px;
         top: 0%;
         left: 0%;
     }
@@ -41,7 +41,7 @@
         font-weight: 600;
         font-size: 7vw;
         letter-spacing: -4px;
-        top: -130px;
+        top: -70px;
         left: 50%;
         transform: translate(-50%);
     }
@@ -50,7 +50,7 @@
         font-weight: 600;
         font-size: 7vw;
         letter-spacing: -4px;
-        top: -370px;
+        top: -220px;
         left: 50%;
         transform: translate(-50%);
     }
@@ -59,7 +59,7 @@
         font-weight: 600;
         font-size: 7vw;
         letter-spacing: -4px;
-        top: -610px;
+        top: -370px;
         left: 50%;
         transform: translate(-50%);
     }
@@ -68,13 +68,13 @@
         font-weight: 600;
         font-size: 7vw;
         letter-spacing: -4px;
-        top: -850px;
+        top: -520px;
         left: 50%;
         transform: translate(-50%);
     }
 
     .fa-github {
-        font-size: 1.6vw;
+        font-size: 2vw;
         left: 40px;
         top: 84%;
         z-index: 2;
@@ -85,7 +85,7 @@
     }
 
     .fa-linkedin {
-        font-size: 1.6vw;
+        font-size: 2vw;
         left: 40px;
         top: 90%;
         z-index: 2;
@@ -98,8 +98,8 @@
     #section-2 {
         width: 100%;
         height: 100%;
-        min-height: 1440px;
-        max-height: 1600px;
+        min-height: 900px;
+        max-height: 1000px;
         left: 0%;
         top: 100%;
     }
@@ -109,6 +109,8 @@
         top: 12.5%;
         height: 75%;
         width: 80%;
+        left: 0%;
+        transform: translate(0%, 0%);
     }    
 
     #sec2h1 {
@@ -117,6 +119,7 @@
         font-size: 0.8vw;
         font-weight: 600;
         letter-spacing: 5px;
+        transform: translate(0%);
     }
 
     #sec2p1 {
@@ -124,8 +127,9 @@
         left: 15%;
         font-size: 3.8vw;
         font-weight: 600;
-        letter-spacing: -6px;
-        line-height: 1.15;
+        letter-spacing: -3px;
+        line-height: 1.08;
+        text-align: unset;
     }
 
     #sec2-span1::after {
@@ -134,9 +138,9 @@
     }
 
     #port-pic-container {
-        height: 400px;
-        width: 400px;
-        top: 870px;
+        height: 180px;
+        width: 180px;
+        top: 550px;
         left: 50%;
         transform: translate(130%);
     }
@@ -172,64 +176,64 @@
     }
 
     #left-pic {
-        width: 110%;
-        top: 48%;
-        left: -55%;
+        width: 108%;
+        top: 45%;
+        left: -54%;
         transform: rotate(90deg);
     }
 
     #right-pic {
-        width: 110%;
-        top: 48%;
-        right: -55%;
+        width: 108%;
+        top: 45%;
+        right: -54%;
         transform: rotate(90deg);
     }
 
     #top-pic {
         width: 110%;
-        top: -2%;
+        top: -4%;
         right: -5%;
     }
 
     #bottom-pic {
         width: 110%;
-        top: 98%;
+        top: 94%;
         right: -5%;
     }
 
     #section-3 {
         width: 100%;
         height: 100%;
-        min-height: 1440px;
-        max-height: 1600px;
+        min-height: 900px;
+        max-height: 1000px;
         left: 0%;
         top: 200%;
     }
 
     #sec3-h1 {
-        top: 120px;
+        top: 0px;
         left: 50%;
         transform: translate(-50%);
         font-size: 0.8vw;
-        font-weight: 600;
+        font-weight: 500;
         letter-spacing: 5px;
     }
 
     .skill-blocks-container-1 {
         width: 100%;
         margin-top: 20px;
-        top: 300px;
+        top: 100px;
         }
 
     .skill-blocks-container-2 {
         width: 100%;
         margin-top: 20px;
-        top: 620px;
+        top: 280px;
         }
 
     .skill-blocks {
-        width: 350px;
-        height: 250px;
+        width: 220px;
+        height: 140px;
         border-radius: 10px;
         perspective: 1000px;
         margin: 0 10px; /* Adds space between skill blocks */
@@ -262,19 +266,21 @@
     }
 
     .skill-block-back h1 {
-        top: 40px;
+        top: 10px;
+        font-size: 1.4vw;
     }
 
     .skill-block-back p {
-        bottom: 60px;
+        bottom: 35px;
+        font-size: 0.8vw;
     }
 
     /* Progress bar container */
     .progress-bar {
         width: 80%;
-        height: 20px;
+        height: 10px;
         border-radius: 10px;
-        top: 200px;
+        top: 80%;
         left: 10%;
     }
 
@@ -285,7 +291,7 @@
     }
 
     #sec3-switching-button {
-        top: 75%;
+        top: 550px;
         left: 50%;
         transform: translate(-50%);
         font-size: 0.7vw;
@@ -302,112 +308,69 @@
     .skill-blocks-container-2-1 {
         width: 100%;
         margin-top: 20px;
-        top: 300px;
+        top: 120px;
         }
 
     .skill-blocks-container-2-2 {
         width: 100%;
         margin-top: 20px;
-        top: 620px;
+        top: 300px;
         }
 
-        
-
     .skill-blocks {
-        width: 350px;
-        height: 250px;
+        width: 220px;
+        height: 140px;
         border-radius: 10px;
         perspective: 1000px;
         margin: 0 10px; /* Adds space between skill blocks */
     }
 
-    .skill-block-inner {
-        width: 100%;
-        height: 100%;
-    }
-
-    .skill-block-front, .skill-block-back {
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
-    }
-
-    .skill-block-front {
-        border: #b7ab98 1px solid;
-    }
-
-    .skill-block-back h1, .skill-block-back p {
-        width: 100%;
-        margin: 0;
-    }
-
-    .skill-block-back h1 {
-        top: 40px;
-    }
-
-    .skill-block-back p {
-        bottom: 60px;
-    }
-
-    /* Progress bar container */
-    .progress-bar {
-        width: 80%;
-        height: 20px;
-        border-radius: 10px;
-        top: 200px;
-        left: 10%;
-    }
-
-    /* Animated progress fill */
-    .progress {
-        border-radius: 10px;
-    }
-
     #section-4 {
         width: 100%;
         height: 100%;
-        min-height: 1440px;
-        max-height: 1600px;
+        min-height: 900px;
+        max-height: 1000px;
         left: 0%;
         top: 300%;
     }
 
     #sec4-h1 {
-        top: 50px;
+        top: 0%;
         left: 15%;
         font-size: 0.8vw;
-        font-weight: 600;
+        font-weight: 500;
         font-style: normal;
         letter-spacing: 5px;
+        transform: translate(0%);
     }
 
     #sec4-p1 {
-        top: 50px;
+        top: -5%;
         left: 15%;
         font-size: 3.8vw;
         font-weight: 600;
         width: 70%;
-        letter-spacing: -6px;
+        letter-spacing: -3px;
         line-height: 1.15;
+        text-align: unset;
+        transform: translate(0%, 0%);
     }
 
     #sec4-span1::after {
         left: 0;
-        top: 13px;
+        top: 7px;
     }
 
     #sec4-span2::after {
         left: 0;
-        top: 13px;
+        top: 7px;
     }
 
     #section-5 {
         width: 100%;
         height: 100%;
-        min-height: 1440px;
-        max-height: 1600px;
+        min-height: 900px;
+        max-height: 1000px;
         left: 0%;
         top: 400%;
     }
@@ -415,65 +378,50 @@
     #section-6 {
         width: 100%;
         height: 100%;
-        min-height: 1440px;
-        max-height: 1600px;
+        min-height: 900px;
+        max-height: 1000px;
         left: 0%;
         top: 500%;
     }
 
     #sec6-h1 {
-        color: #b7ab98;
-        position: absolute;
         top: 40px;
         left: 15%;
         font-size: 0.8vw;
-        text-transform: uppercase;
-        font-weight: 600;
+        font-weight: 500;
         font-style: normal;
         letter-spacing: 5px;
     }
 
     #sec6-h2 {
-        color: #b7ab98;
-        position: absolute;
-        top: 180px;
+        top: 60px;
         left: 50%;
         transform: translate(-50%);
-        font-size: 3.4vw;
-        text-transform: uppercase;
+        font-size: 3.6vw;
         font-weight: 600;
         font-style: normal;
         letter-spacing: 5px;
         z-index: 6;
-        transition: all 0.4s linear;
     }
 
     #sec6-button1 {
-        color: #b7ab98;
-        position: absolute;
         top: 70%;
         left: 50%;
         transform: translate(-50%);
         font-size: 0.7vw;
-        text-transform: uppercase;
-        background-color: transparent;
         border: #b7ab98 solid 1px;
         border-radius: 8px;
-        padding: 10px;
-        padding-left: 25px;
-        padding-right: 25px;
-        font-weight: 600;
+        padding: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: 500;
         font-style: normal;
-        letter-spacing: 5px;
-        cursor: pointer;
-        transition: all 0.4s linear;
+        letter-spacing: 4px;
     }
 
     .sec6-container {
-        background-color: transparent;
-        height: 50%;
-        width: 50%;
-        position: absolute;
+        height: 320px;
+        width: 600px;
         transform: translate(-50%,-50%);
         left: 50%;
         top: 40%;
@@ -496,7 +444,7 @@
         left: 50%;
         transform: translate(-50%);
         font-size: 0.7vw;
+        font-weight: 500;
         letter-spacing: 1px;
     }
-
 }

@@ -23,55 +23,7 @@
         top: 0%;
         left: 0%;
     }
-
-    #sec1-container {
-        height: 50%;
-    }
     
-    #sec1h1 {
-        font-weight: 400;
-        font-size: 0.9vw;
-        letter-spacing: 4px;
-        top: 0%;
-        left: 50%;
-        transform: translate(-50%);
-    }
-    
-    #sec1h2 {
-        font-weight: 600;
-        font-size: 7vw;
-        letter-spacing: -4px;
-        top: -10%;
-        left: 50%;
-        transform: translate(-50%);
-    }
-    
-    #sec1h3 {
-        font-weight: 600;
-        font-size: 7vw;
-        letter-spacing: -4px;
-        top: -28%;
-        left: 50%;
-        transform: translate(-50%);
-    }
-    
-    #sec1h4 {
-        font-weight: 600;
-        font-size: 7vw;
-        letter-spacing: -4px;
-        top: -46%;
-        left: 50%;
-        transform: translate(-50%);
-    }
-    
-    #sec1h5 {
-        font-weight: 600;
-        font-size: 7vw;
-        letter-spacing: -4px;
-        top: -64%;
-        left: 50%;
-        transform: translate(-50%);
-    }
     #sec1-container {
         height: 530px;
     }
@@ -157,6 +109,8 @@
         top: 12.5%;
         height: 75%;
         width: 80%;
+        left: 0%;
+        transform: translate(0%, 0%);
     }  
 
     #sec2h1 {
@@ -165,6 +119,7 @@
         font-size: 0.8vw;
         font-weight: 600;
         letter-spacing: 5px;
+        transform: translate(0%);
     }
 
     #sec2p1 {
@@ -174,6 +129,7 @@
         font-weight: 600;
         letter-spacing: -4px;
         line-height: 1.08;
+        text-align: unset;
     }
 
     #sec2-span1::after {
@@ -429,6 +385,7 @@
         font-weight: 600;
         font-style: normal;
         letter-spacing: 5px;
+        transform: translate(0%);
     }
 
     #sec4-p1 {
@@ -439,6 +396,8 @@
         width: 70%;
         letter-spacing: -4px;
         line-height: 1.15;
+        text-align: unset;
+        transform: translate(0%, 0%);
     }
 
     #sec4-span1::after {

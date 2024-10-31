@@ -28,7 +28,7 @@
         height: 50%;
     }
     
-    #sec1h1 {
+    #sec1h1 { 
         font-weight: 400;
         font-size: 0.9vw;
         letter-spacing: 4px;
@@ -78,6 +78,7 @@
         left: 40px;
         top: 84%;
         z-index: 2;
+        visibility: visible;
     }
 
     .fa-github:hover {
@@ -89,6 +90,7 @@
         left: 40px;
         top: 90%;
         z-index: 2;
+        visibility: visible;
     }
 
     .fa-linkedin:hover {
@@ -109,6 +111,8 @@
         top: 12.5%;
         height: 75%;
         width: 80%;
+        left: 0%;
+        transform: translate(0%, 0%);
     }    
 
     #sec2h1 {
@@ -117,6 +121,7 @@
         font-size: 0.8vw;
         font-weight: 600;
         letter-spacing: 5px;
+        transform: translate(0%);
     }
 
     #sec2p1 {
@@ -126,6 +131,7 @@
         font-weight: 600;
         letter-spacing: -3px;
         line-height: 1.08;
+        text-align: unset;
     }
 
     #sec2-span1::after {
@@ -337,6 +343,7 @@
         font-weight: 500;
         font-style: normal;
         letter-spacing: 5px;
+        transform: translate(0%);
     }
 
     #sec4-p1 {
@@ -347,6 +354,8 @@
         width: 70%;
         letter-spacing: -3px;
         line-height: 1.15;
+        text-align: unset;
+        transform: translate(0%, 0%);
     }
 
     #sec4-span1::after {

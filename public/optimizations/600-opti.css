@@ -1,4 +1,4 @@
-@media screen and (min-width: 1280px) and (orientation: landscape) {
+@media screen and (max-width: 600px) {
     
     body {
         background-color: #141414;
@@ -11,6 +11,7 @@
 
     #background-video {
         top: 0%;
+        left: -0.5%;
         width: 100%;
         height: 100%;
     }
@@ -18,28 +19,31 @@
     #section-1 {
         width: 100%;
         height: 100%;
-        min-height: 900px;
+        min-height: 1000px;
         max-height: 1000px;
         top: 0%;
         left: 0%;
     }
 
     #sec1-container {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         height: 50%;
     }
     
     #sec1h1 {
         font-weight: 400;
-        font-size: 0.9vw;
+        font-size: 2vw;
         letter-spacing: 4px;
-        top: 0%;
+        top: 50px;
         left: 50%;
         transform: translate(-50%);
     }
     
     #sec1h2 {
         font-weight: 600;
-        font-size: 7vw;
+        font-size: 14vw;
         letter-spacing: -4px;
         top: -70px;
         left: 50%;
@@ -48,84 +52,77 @@
     
     #sec1h3 {
         font-weight: 600;
-        font-size: 7vw;
+        font-size: 14vw;
         letter-spacing: -4px;
-        top: -220px;
+        top: -250px;
         left: 50%;
         transform: translate(-50%);
     }
     
     #sec1h4 {
         font-weight: 600;
-        font-size: 7vw;
+        font-size: 14vw;
         letter-spacing: -4px;
-        top: -370px;
+        top: -430px;
         left: 50%;
         transform: translate(-50%);
     }
     
     #sec1h5 {
         font-weight: 600;
-        font-size: 7vw;
+        font-size: 14vw;
         letter-spacing: -4px;
-        top: -520px;
+        top: -610px;
         left: 50%;
         transform: translate(-50%);
     }
 
     .fa-github {
-        font-size: 2vw;
-        left: 40px;
-        top: 84%;
-        z-index: 2;
-    }
-
-    .fa-github:hover {
-        transform: translateY(-10px);
+        visibility: hidden;
     }
 
     .fa-linkedin {
-        font-size: 2vw;
-        left: 40px;
-        top: 90%;
-        z-index: 2;
-    }
-
-    .fa-linkedin:hover {
-        transform: translateY(-10px);
+        visibility: hidden;
     }
 
     #section-2 {
         width: 100%;
         height: 100%;
-        min-height: 900px;
+        min-height: 1000px;
         max-height: 1000px;
         left: 0%;
         top: 100%;
+        background-color: aqua;
     }
 
     #sec-2-row {
         position: absolute;
-        top: 12.5%;
+        top: 50%;
         height: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         width: 80%;
     }    
 
+    br { content: " "; }
+
     #sec2h1 {
-        top: 80px;
-        left: 15%;
-        font-size: 0.8vw;
+        top: 40px;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 1.6vw;
         font-weight: 600;
         letter-spacing: 5px;
     }
 
     #sec2p1 {
         top: 80px;
-        left: 15%;
-        font-size: 3.8vw;
+        left: 0%;
+        font-size: 6vw;
         font-weight: 600;
         letter-spacing: -3px;
         line-height: 1.08;
+        text-align: center;
     }
 
     #sec2-span1::after {
@@ -134,11 +131,11 @@
     }
 
     #port-pic-container {
-        height: 180px;
-        width: 180px;
-        top: 550px;
+        height: 250px;
+        width: 250px;
+        top: 820px;
         left: 50%;
-        transform: translate(130%);
+        transform: translate(-50%);
     }
 
     #port-pic {
@@ -200,17 +197,17 @@
     #section-3 {
         width: 100%;
         height: 100%;
-        min-height: 900px;
-        max-height: 1000px;
+        min-height: 1200px;
+        max-height: 1200px;
         left: 0%;
         top: 200%;
     }
 
     #sec3-h1 {
-        top: 0px;
+        top: 100px;
         left: 50%;
         transform: translate(-50%);
-        font-size: 0.8vw;
+        font-size: 1.7vw;
         font-weight: 500;
         letter-spacing: 5px;
     }
@@ -218,18 +215,18 @@
     .skill-blocks-container-1 {
         width: 100%;
         margin-top: 20px;
-        top: 100px;
+        top: 200px;
         }
 
     .skill-blocks-container-2 {
         width: 100%;
         margin-top: 20px;
-        top: 280px;
+        top: 450px;
         }
 
     .skill-blocks {
         width: 220px;
-        height: 140px;
+        height: 180px;
         border-radius: 10px;
         perspective: 1000px;
         margin: 0 10px; /* Adds space between skill blocks */
@@ -262,13 +259,13 @@
     }
 
     .skill-block-back h1 {
-        top: 10px;
-        font-size: 1.4vw;
+        top: 30px;
+        font-size: 2.5vw;
     }
 
     .skill-block-back p {
-        bottom: 35px;
-        font-size: 0.8vw;
+        bottom: 55px;
+        font-size: 1.4vw;
     }
 
     /* Progress bar container */
@@ -287,10 +284,10 @@
     }
 
     #sec3-switching-button {
-        top: 550px;
+        top: 740px;
         left: 50%;
         transform: translate(-50%);
-        font-size: 0.7vw;
+        font-size: 1.6vw;
         border: #b7ab98 solid 1px;
         border-radius: 8px;
         padding: 5px;
@@ -304,49 +301,44 @@
     .skill-blocks-container-2-1 {
         width: 100%;
         margin-top: 20px;
-        top: 120px;
+        top: 200px;
         }
 
     .skill-blocks-container-2-2 {
         width: 100%;
         margin-top: 20px;
-        top: 300px;
+        top: 450px;
         }
-
-    .skill-blocks {
-        width: 220px;
-        height: 140px;
-        border-radius: 10px;
-        perspective: 1000px;
-        margin: 0 10px; /* Adds space between skill blocks */
-    }
 
     #section-4 {
         width: 100%;
         height: 100%;
-        min-height: 900px;
-        max-height: 1000px;
+        min-height: 1200px;
+        max-height: 1200px;
         left: 0%;
         top: 300%;
     }
 
     #sec4-h1 {
-        top: 0%;
-        left: 15%;
-        font-size: 0.8vw;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 1.6vw;
         font-weight: 500;
         font-style: normal;
         letter-spacing: 5px;
     }
 
     #sec4-p1 {
-        top: -5%;
-        left: 15%;
-        font-size: 3.8vw;
+        top: 50%;
+        left: 50%;
+        font-size: 5.7vw;
         font-weight: 600;
         width: 70%;
         letter-spacing: -3px;
         line-height: 1.15;
+        text-align: center;
+        transform: translate(-50%, -50%);
     }
 
     #sec4-span1::after {
@@ -362,8 +354,8 @@
     #section-5 {
         width: 100%;
         height: 100%;
-        min-height: 900px;
-        max-height: 1000px;
+        min-height: 1200px;
+        max-height: 1200px;
         left: 0%;
         top: 400%;
     }
@@ -371,8 +363,8 @@
     #section-6 {
         width: 100%;
         height: 100%;
-        min-height: 900px;
-        max-height: 1000px;
+        min-height: 1200px;
+        max-height: 1200px;
         left: 0%;
         top: 500%;
     }
@@ -380,7 +372,7 @@
     #sec6-h1 {
         top: 40px;
         left: 15%;
-        font-size: 0.8vw;
+        font-size: 1.6vw;
         font-weight: 500;
         font-style: normal;
         letter-spacing: 5px;
