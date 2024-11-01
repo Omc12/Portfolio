@@ -268,13 +268,13 @@
     }
 
     .skill-block-back h1 {
-        top: 10px;
-        font-size: 1.4vw;
+        top: 20px;
+        font-size: 1.6vw;
     }
 
     .skill-block-back p {
-        bottom: 35px;
-        font-size: 0.8vw;
+        bottom: 45px;
+        font-size: 1vw;
     }
 
     /* Progress bar container */
@@ -310,13 +310,13 @@
     .skill-blocks-container-2-1 {
         width: 100%;
         margin-top: 20px;
-        top: 120px;
+        top: 80px;
         }
 
     .skill-blocks-container-2-2 {
         width: 100%;
         margin-top: 20px;
-        top: 300px;
+        top: 280px;
         }
 
 
