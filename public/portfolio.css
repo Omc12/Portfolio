@@ -470,7 +470,7 @@ body {
 .progress-bar {
     width: 80%;
     height: 20px;
-    background-color: #e0e0e0;
+    background-color: rgba(102, 51, 153, 0.632);
     border-radius: 10px;
     overflow: hidden;
     position: absolute;
@@ -481,7 +481,7 @@ body {
 /* Animated progress fill */
 .progress {
     height: 100%;
-    background-color: #ffffff; /* Customize this color */
+    background-color: #ffffff;
     width: 0%; /* Initial width for animation */
     transition: width 3s ease-in-out;
     border-radius: 10px;
@@ -609,7 +609,7 @@ body {
 .progress-bar {
     width: 80%;
     height: 20px;
-    background-color: #e0e0e0;
+    background-color: rgba(102, 51, 153, 0.632);
     border-radius: 10px;
     overflow: hidden;
     position: absolute;
