@@ -143,7 +143,7 @@ body {
 
 .fa-github {
     font-size: 40px;
-    position: absolute;
+    position: fixed;
     left: 40px;
     top: 84%;
     cursor: pointer;
@@ -160,7 +160,7 @@ body {
 
 .fa-linkedin {
     font-size: 40px;
-    position: absolute;
+    position: fixed;
     left: 40px;
     top: 90%;
     cursor: pointer;
