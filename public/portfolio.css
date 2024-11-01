@@ -42,7 +42,7 @@ body {
     font-size: 24px;
     letter-spacing: 4px;
     text-align: center;
-    position: relative;
+    position: fixed;
     top: -66%;
     left: 50%;
     transform: translate(-50%);
@@ -64,7 +64,7 @@ body {
     font-size: 180px;
     letter-spacing: -4px;
     text-align: center;
-    position: relative;
+    position: fixed;
     top: 0%;
     left: 50%;
     transform: translate(-50%);
@@ -85,7 +85,7 @@ body {
     font-size: 180px;
     letter-spacing: -4px;
     text-align: center;
-    position: relative;
+    position: fixed;
     top: 22%;
     left: 50%;
     transform: translate(-50%);
@@ -106,7 +106,7 @@ body {
     font-size: 180px;
     letter-spacing: -4px;
     text-align: center;
-    position: relative;
+    position: fixed;
     top: 34%;
     left: 50%;
     transform: translate(-50%);
@@ -127,7 +127,7 @@ body {
     font-size: 180px;
     letter-spacing: -4px;
     text-align: center;
-    position: relative;
+    position: fixed;
     top: 46%;
     left: 50%;
     transform: translate(-50%);
@@ -181,7 +181,8 @@ body {
     position: relative;
     left: 0%;
     top: 100%;
-    background-color: #141414;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 27%, rgba(20,20,20,1) 100%);
 }
 
 #sec2h1 {

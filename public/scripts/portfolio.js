@@ -57,3 +57,15 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+// Wait for the entire page to load
+window.addEventListener('load', function() {
+    const pageLoader = document.getElementById('page-loader');
+    // Add the 'hidden' class to start the fade-out transition
+    pageLoader.classList.add('hidden');
+    
+    // Remove the loader from the DOM after the transition
+    pageLoader.addEventListener('transitionend', function() {
+        pageLoader.style.display = 'none';
+    });
+});

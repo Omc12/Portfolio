@@ -34,45 +34,45 @@
     
     #sec1h1 {
         font-weight: 400;
-        font-size: 2vw;
+        font-size: 16px;
         letter-spacing: 4px;
-        top: 50px;
+        top: 0px;
         left: 50%;
         transform: translate(-50%);
     }
     
     #sec1h2 {
         font-weight: 600;
-        font-size: 14vw;
+        font-size: 130px;
         letter-spacing: -4px;
-        top: -70px;
+        top: -50px;
         left: 50%;
         transform: translate(-50%);
     }
     
     #sec1h3 {
         font-weight: 600;
-        font-size: 14vw;
+        font-size: 130px;
         letter-spacing: -4px;
-        top: -250px;
+        top: 60px;
         left: 50%;
         transform: translate(-50%);
     }
     
     #sec1h4 {
         font-weight: 600;
-        font-size: 14vw;
+        font-size: 130px;
         letter-spacing: -4px;
-        top: -430px;
+        top: 170px;
         left: 50%;
         transform: translate(-50%);
     }
     
     #sec1h5 {
         font-weight: 600;
-        font-size: 14vw;
+        font-size: 130px;
         letter-spacing: -4px;
-        top: -610px;
+        top: 280px;
         left: 50%;
         transform: translate(-50%);
     }
