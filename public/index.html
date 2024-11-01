@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="./loader-files/webpageLoader.css">
         <link rel="stylesheet" href="./portfolio.css">
         <link rel="stylesheet" href="./css files/textanimation.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -22,6 +23,9 @@
     </head>
     <body>
 
+        <div id="page-loader" class="active" aria-busy="true" aria-label="Loading">
+            <div class="webloader"></div>
+        </div>
         
         <video id="background-video" style="pointer-events: none;" autoplay muted loop>
             <source src="./icons/keyboard back.mp4" type="video/mp4">

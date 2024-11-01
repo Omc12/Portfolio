@@ -30,16 +30,16 @@
     
     #sec1h1 {
         font-weight: 400;
-        font-size: 0.9vw;
+        font-size: 20px;
         letter-spacing: 4px;
-        top: 0%;
+        top: -50px;
         left: 50%;
         transform: translate(-50%);
     }
     
     #sec1h2 {
         font-weight: 600;
-        font-size: 7vw;
+        font-size: 150px;
         letter-spacing: -4px;
         top: -100px;
         left: 50%;
@@ -48,27 +48,27 @@
     
     #sec1h3 {
         font-weight: 600;
-        font-size: 7vw;
+        font-size: 150px;
         letter-spacing: -4px;
-        top: -280px;
+        top: 20px;
         left: 50%;
         transform: translate(-50%);
     }
     
     #sec1h4 {
         font-weight: 600;
-        font-size: 7vw;
+        font-size: 150px;
         letter-spacing: -4px;
-        top: -460px;
+        top: 140px;
         left: 50%;
         transform: translate(-50%);
     }
     
     #sec1h5 {
         font-weight: 600;
-        font-size: 7vw;
+        font-size: 150px;
         letter-spacing: -4px;
-        top: -640px;
+        top: 260px;
         left: 50%;
         transform: translate(-50%);
     }
